@@ -14,7 +14,7 @@ Añadir o eliminar recetas de manera intuitiva.
 
 Capturas de pantalla de la aplicación
 
-<img src="assets/interfaces1.jpg" width="100"/>
-<img src="assets/interfaces2.jpg" width="100"/>
-<img src="assets/interfaces3.jpg" width="100"/>
+<img src="assets/interfaces1.jpg" width="100%"/>
+<img src="assets/interfaces2.jpg" width="100%"/>
+<img src="assets/interfaces3.jpg" width="100%"/>
 
