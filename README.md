@@ -15,6 +15,7 @@ Gracias a Jetpack Compose, la app logra una arquitectura limpia, modular y total
 <img src="assets/interfaces1.png" width="100%"/>
 <img src="assets/interfaces2.png" width="100%"/>
 
-Se han trabajdo los colores en modalidad Pantalla Oscura y Luminosa
+## Se han trabajdo los colores en modalidad Pantalla Oscura y Luminosa
+
 <img src="assets/interfaces3.png" width="100%"/>
 
