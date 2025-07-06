@@ -1,4 +1,4 @@
-🍲 App de Dietas
+## 🍲 App de Dietas
 
 Aplicación de Dietas – Modelado Nutricional Avanzado
 Este proyecto es una aplicación Android desarrollada con Jetpack Compose y Room, centrada en la gestión estructurada de alimentos y su composición nutricional.
