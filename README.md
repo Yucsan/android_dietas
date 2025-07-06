@@ -27,6 +27,35 @@ Este proyecto demuestra un enfoque sólido para representar datos complejos, rel
 - Consultar el detalle de cada receta.
 - Añadir o eliminar recetas de manera intuitiva.
 
+## 🛠️ Tecnologías utilizadas
+Este proyecto Android ha sido desarrollado con un stack moderno, centrado en la arquitectura declarativa de Jetpack Compose y el uso de Room para persistencia local. A continuación se listan las tecnologías principales:
+
+📱 Android & Jetpack
+Jetpack Compose – Framework declarativo para construir interfaces nativas en Android.
+
+Material 3 – Componentes visuales modernos según las guías de diseño de Google.
+
+Navigation Compose – Navegación basada en Compose, sin necesidad de fragments.
+
+Lifecycle + LiveData – Para gestión del ciclo de vida y observación de datos.
+
+💾 Persistencia de datos
+Room – Abstracción sobre SQLite con anotaciones y soporte para relaciones.
+
+Incluye uso de room-runtime, room-ktx y el compilador vía ksp.
+
+🧪 Testing
+JUnit – Pruebas unitarias.
+
+Espresso – Pruebas de UI automatizadas.
+
+Compose Test – Herramientas específicas para probar interfaces declarativas.
+
+⚙️ Otras configuraciones
+Kotlin Symbol Processing (KSP) – Para generar código a partir de anotaciones (como las de Room).
+
+Gradle con Kotlin DSL – Gestión de build moderna y tipada.
+
 ## Diagrama Relacional
 
 <img src="assets/diagrama_relacional.jpg" width="100%"/>
