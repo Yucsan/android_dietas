@@ -5,15 +5,7 @@ Este proyecto es una aplicación Android desarrollada con Jetpack Compose y Room
 
 El modelo principal gira en torno a la entidad ComponenteDieta, que puede representar distintos tipos de alimentos:
 
-Simple,
-
-Procesado,
-
-Receta,
-
-Menú,
-
-y Dieta.
+Simple, Procesado, Receta, Menú y Dieta.
 
 Los tres últimos son componentes compuestos, lo que permite construir estructuras jerárquicas donde, por ejemplo, un Menú puede contener una Receta, varios alimentos simples o incluso otro Menú anidado. Esta relación recursiva es gestionada mediante una tabla intermedia, lo que habilita una lógica de composición flexible y escalable.
 
