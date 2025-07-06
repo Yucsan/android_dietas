@@ -10,6 +10,10 @@ Gracias a Jetpack Compose, la app logra una arquitectura limpia, modular y total
 - Consultar el detalle de cada receta.
 - Añadir o eliminar recetas de manera intuitiva.
 
+## Diagrama Relacional
+
+<img src="assets/diagrama_relacional.jpg" width="100%"/>
+
 ## Capturas de pantalla de la aplicación
 
 <img src="assets/interfaces1.png" width="100%"/>
