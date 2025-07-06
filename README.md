@@ -4,17 +4,18 @@
 
 Gracias a Jetpack Compose, la app logra una arquitectura limpia, modular y totalmente declarativa, permitiendo vistas altamente personalizables y dinámicas sin necesidad de XML. Por otro lado, Room proporciona una capa de abstracción robusta sobre SQLite, facilitando el acceso eficiente y seguro a la base de datos local.
 
-El flujo principal permite al usuario:
+## El flujo principal permite al usuario:
 
-Ver una lista de recetas almacenadas.
+- Ver una lista de recetas almacenadas.
+- Consultar el detalle de cada receta.
+- Añadir o eliminar recetas de manera intuitiva.
 
-Consultar el detalle de cada receta.
+## Capturas de pantalla de la aplicación
 
-Añadir o eliminar recetas de manera intuitiva.
+<img src="assets/interfaces1.png" width="100%"/>
+<img src="assets/interfaces2.png" width="100%"/>
 
-Capturas de pantalla de la aplicación
+## Se han trabajdo los colores en modalidad Pantalla Oscura y Luminosa
 
-<img src="assets/interfaces1.jpg" width="100%"/>
-<img src="assets/interfaces2.jpg" width="100%"/>
-<img src="assets/interfaces3.jpg" width="100%"/>
+<img src="assets/interfaces3.png" width="100%"/>
 
