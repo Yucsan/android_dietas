@@ -1,8 +1,33 @@
-🍲 App de Recetas – Cocina Fácil
+🍲 App de Dietas
 
-"Cocina Fácil" es una aplicación móvil desarrollada con Jetpack Compose para la interfaz de usuario y Room como solución de persistencia local. La app está diseñada para facilitar la organización, consulta y gestión de recetas desde tu dispositivo Android, con una interfaz moderna, fluida y centrada en la experiencia del usuario.
+Aplicación de Dietas – Modelado Nutricional Avanzado
+Este proyecto es una aplicación Android desarrollada con Jetpack Compose y Room, centrada en la gestión estructurada de alimentos y su composición nutricional.
 
-Gracias a Jetpack Compose, la app logra una arquitectura limpia, modular y totalmente declarativa, permitiendo vistas altamente personalizables y dinámicas sin necesidad de XML. Por otro lado, Room proporciona una capa de abstracción robusta sobre SQLite, facilitando el acceso eficiente y seguro a la base de datos local.
+El modelo principal gira en torno a la entidad ComponenteDieta, que puede representar distintos tipos de alimentos:
+
+Simple,
+
+Procesado,
+
+Receta,
+
+Menú,
+
+y Dieta.
+
+Los tres últimos son componentes compuestos, lo que permite construir estructuras jerárquicas donde, por ejemplo, un Menú puede contener una Receta, varios alimentos simples o incluso otro Menú anidado. Esta relación recursiva es gestionada mediante una tabla intermedia, lo que habilita una lógica de composición flexible y escalable.
+
+Cada componente almacena información nutricional básica: hidratos de carbono, lípidos y proteínas, y al estar compuestos, la aplicación calcula automáticamente los valores totales agregados en base a sus ingredientes y cantidades correspondientes.
+
+La lógica implementada permite:
+
+Editar dinámicamente los componentes: nombre, cantidad en gramos, o valores nutricionales.
+
+Agregar o eliminar ingredientes en componentes compuestos.
+
+Recalcular en tiempo real las calorías totales según la estructura y cantidad de cada ingrediente.
+
+Este proyecto demuestra un enfoque sólido para representar datos complejos, relaciones recursivas y lógica nutricional integrada en un entorno Android moderno.
 
 ## El flujo principal permite al usuario:
 
